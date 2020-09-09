@@ -331,7 +331,7 @@
     // get location details
     function GetLocationFromGoogleAPI(latitude, longitude) {
         $.ajax({
-            url: "https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyD-7814D-B9Ok0J_9kvGcyMUGgyCCyQezE&language=pt-br&latlng=" + latitude + "," + longitude,
+            url: "https://maps.googleapis.com/maps/api/geocode/json?key={{key}}&language=pt-br&latlng=" + latitude + "," + longitude,
             type: "GET",
             success: function (data) {
                 $("#packagelocation").html(data.results[0].formatted_address);
@@ -440,4 +440,4 @@
         hide(document.getElementById('trackingdiv'));
     });
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-7814D-B9Ok0J_9kvGcyMUGgyCCyQezE" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key={{key}}" async defer></script>
