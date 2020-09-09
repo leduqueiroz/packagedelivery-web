@@ -1,5 +1,11 @@
 # WHERE IS MY PACKAGE?
 
+Microservices with .Net Core, DDD, CQRS, Event Sourcing, EF Core, FluenValidation, SQL, RabbitMq + Docker!  
+
+Coming soon in https://www.udemy.com/!
+
+# Backend
+![alt text](https://github.com/leduqueiroz/packagedelivery-web/blob/master/img/EventFlow.png)
 
 # Template: 
 https://startbootstrap.com/themes/freelancer/
