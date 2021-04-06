@@ -1,6 +1,6 @@
 # WHERE IS MY PACKAGE?
 
-Microservices with .Net Core, DDD, CQRS, Event Sourcing, EF Core, FluenValidation, SQL, RabbitMq + Docker!  
+Microservices with .Net 5, DDD, CQRS, Event Sourcing, EF Core, FluenValidation, SQL, RabbitMq + Docker!  
 
 Coming soon in https://www.udemy.com/!
 
